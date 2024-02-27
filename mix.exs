@@ -25,18 +25,18 @@ defmodule RRulex.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ex_doc, "~> 0.18", only: :dev},
-      {:timex, "~> 3.7.9"},
+      {:ex_doc, "~> 0.31", only: :dev},
+      {:timex, "~> 3.7.6"},
     ]
   end
 
   defp description do
   """
-  RRulex is an Elixir package that parses an RRULE from 
+  RRulex is an Elixir package that parses an RRULE from
   the iCalendar RFC-2445 and expands into a usable struct.
   """
   end
-  
+
   defp package do
     [
       name: :rrulex,
